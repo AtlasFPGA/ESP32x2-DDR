@@ -1,4 +1,4 @@
-# ESP32x2-RELOCATOR-DDR
+# RELOCATOR-ESP32x2-DDR
 Conseguir unir 2 Esp32, creando un bus DDR de 12Bits.
 
 En este inicio del esquema del ESP32x2-DDR se plantea incorporar y tener accesibles los buses ARDUINO MKR y ARDUINO MEGA.
