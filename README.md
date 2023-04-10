@@ -25,9 +25,9 @@
 
    Se define un bus de intercambio lineal.
 
-   Matriz de casos:
+   Matriz de casos/estados:
 
-| MATRIZ ESTADOS | SEL01 | SEL02 |
+| MATRIZ DE ESTADOS | SEL01 | SEL02 |
 | ------------- | ------------- | ------------- |
 | Dirección de lectura  | 0  | 0 |
 | Lectura de datos  | 0  | 1 |
