@@ -35,8 +35,8 @@
 
 - CLK+    --> Señal generada por el SI5351.
 - CLK-    --> Señal generada por el SI5351 con un restraso de 180º o pi Radianes.
-- SEL01   --> Matriz de estados Señal 02
-- SEL02   --> Matriz de estados Señal 01
+- SEL01   --> Matriz de estados Señal 02.
+- SEL02   --> Matriz de estados Señal 01.
 - AD[7:0] --> Bus de direcciones y de datos, sin definir sus tamaños en realidad.
 
    Al tener los relojes podemos diseñar un bus DDR.
@@ -69,7 +69,7 @@
 | 1 Señales   | EAR  |
 
 
-   CARA SUPERIOR ESP32x2-DDR:
+   CARA SUPERIOR ESP32x2-DDR vemos los 12 puntos de test:
 
 ![CARA SUPERIOR ESP32x2-DDR](https://github.com/AtlasFPGA/ESP32x2-DDR/blob/main/FOTOS/CARA-SUPERIOR-ESP32x2-DDR.jpg)
 
