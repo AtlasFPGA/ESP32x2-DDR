@@ -5,6 +5,23 @@
    En este inicio del esquema del ESP32x2-DDR se plantea incorporar y tener accesibles los buses ARDUINO MKR y ARDUINO MEGA.
 ![Esquema](https://github.com/AtlasFPGA/ESP32x2-DDR/blob/main/FOTOS/PRIMER-MULTI-ESQUEMA-DIFERETES-PINEADOS.jpg)
 
+   Diagrama ESP32-VIDEO ESP32-AUDIO:
+  
+| BLOQUES FUNCIONALES ESP32-VIDEO CARA INFERIOR|
+| ------------- |
+| VGA64_222_HS_VS  |
+| TECLADO PS2  |
+| RATÓN_PS2 |
+| EAR  |
+
+
+| BLOQUES FUNCIONALES ESP32-AUDIO CARA SUPERIOR|
+| ------------- |
+| MANDO ATARI DB9 |
+| I2C_SI5351  |
+| DELTASIGMA MONO  |
+| SD_SPI  |
+
    Idea del bus DDR, 12 pines, permite buses de datos de 8Bits en adelante, y direcciones igualmente de 8/16/24 usando bloques de 8bit, a los ya no lógicos 32bit para un microcontrolador que son unos 4Gbytes, para un microcontrolador esp32 los 16Mbytes permite tanto mapear parte de la memoria sram como la spesudosram de ambos ESP32. Así que definimos un escenario para dos ESP32 que comparten memoria mediante un bus DDR programado(sólo se plantea el mismo).
 
 ![IDEA ESP32x2-DDR](https://github.com/AtlasFPGA/ESP32x2-DDR/blob/main/FOTOS/MAPEO-LINEAL-ESP32x2-SI5351-photo_2023-04-09_17-04-53-ANTI.png)
