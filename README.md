@@ -1,5 +1,5 @@
 # RECOLOCADOR ESP32x2-DDR, ESP32x2-DDR-RELOCATOR
-   Conseguir unir 2 Esp32, creando un bus DDR de 12Bits.
+   Conseguir unir 2 Esp32, creando un bus DDR de 12Bits es muy importante.
    Las placas ESP32 tienen una gran intrucción en el mercado por sus prestaciones/precios desde hace más de 8 años.
 
    En este inicio del esquema del ESP32x2-DDR se plantea incorporar y tener accesibles los buses ARDUINO MKR y ARDUINO MEGA.
