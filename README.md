@@ -1,9 +1,19 @@
 # RECOLOCADOR ESP32x2-DDR, ESP32x2-DDR-RELOCATOR
-   Conseguir unir 2 Esp32, creando un bus DDR de 12Bits es muy importante.
+   Conseguir unir 2 Esp32, creando un bus DDR de 12 señales es muy importante.
    Las placas ESP32 tienen una gran intrucción en el mercado por sus prestaciones/precios desde hace más de 8 años.
 
    En este inicio del esquema del ESP32x2-DDR se plantea incorporar y tener accesibles los buses ARDUINO MKR y ARDUINO MEGA.
 ![Esquema](https://github.com/AtlasFPGA/ESP32x2-DDR/blob/main/FOTOS/PRIMER-MULTI-ESQUEMA-DIFERETES-PINEADOS.jpg)
+
+   El sistema con el ESP32x1-GO, puede usar todos los códigos, únicamente teniendo en cuenta que hay que variar las posiciones de los pines; dado que estas vienen marcadas por la asignación previa de usar el diseño ESP32-2-DDR, con esta placa ESP32x1-GO sería dar el primer;despues sería agregar un módulo SI5351 y otro ESP32 DEV KIT V1.
+   
+   Asignaciones ESP32x1-GO que substituyen al ESP32-AUDIO:
+   
+![ESP32x1-GO ASIGNACIONES](https://github.com/AtlasFPGA/ESP32x2-DDR/blob/main/FOTOS/ASIGNACIONES-ESP32x1-GO-photo_2023-04-11_12-57-55.jpg)
+
+   Vista en perspectiva:
+   
+![COMPATIBILIDAD VIA FUENTES ESP32x1-GO](https://github.com/AtlasFPGA/ESP32x2-DDR/blob/main/FOTOS/PLACA-ESP32x1-GO-photo_2023-04-11_12-50-03.jpg)
 
    Diagrama ESP32-VIDEO ESP32-AUDIO:
   
