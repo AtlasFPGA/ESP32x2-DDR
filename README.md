@@ -1,4 +1,7 @@
 # RECOLOCADOR ESP32x2-DDR, ESP32x2-DDR-RELOCATOR
+
+Group ATLAS in Telegram: https://t.me/INICIATIVAATLAS
+
    Conseguir unir 2 Esp32, creando un bus DDR de 12 señales es muy importante.
    Las placas ESP32 tienen una gran intrucción en el mercado por sus prestaciones/precios desde hace más de 8 años.
 
